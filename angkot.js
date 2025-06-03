@@ -6,6 +6,7 @@ function Angkot(sopir, trayek, penumpang, kas) {
 
 //   jika ada penumpang naik
   this.penumpangNaik = function (namaPenumpang) {
+    // push namaPenumpang ke array penumpang
     this.penumpang.push(namaPenumpang);
     return this.penumpang;
   };
